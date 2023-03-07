@@ -10,7 +10,7 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "set_@PropertyResource_to_fix_file_for_all_classes" ]
+    branches: [ * ]
   pull_request:
     branches: [ "master" ]
 
